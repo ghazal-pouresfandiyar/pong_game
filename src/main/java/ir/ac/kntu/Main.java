@@ -31,7 +31,6 @@ public class Main extends Application {
     int tempY=deltaY;
     @Override
     public void start(Stage primaryStage) {
-        //TODO: Assume that your program starts from this method
         Group root = new Group();
         Scene scene = new Scene(root, 700, 700, Color.GRAY);
         boolean random = RandomHelper.nextBoolean();
