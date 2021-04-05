@@ -36,7 +36,7 @@ public class Main extends Application {
         Scene scene = new Scene(root, 700, 700, Color.GRAY);
         boolean random = RandomHelper.nextBoolean();
         Ball ball=new Ball(20);
-        if (random == true) {
+        if (random) {
             ball.setColor(Color.RED);
         } else {
             ball.setColor(Color.BLUE);
